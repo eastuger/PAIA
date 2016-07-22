@@ -4,10 +4,10 @@ var builder = require('botbuilder');
 var request = require('request');
 
 //Bootstrap 
-// var bot = new builder.BotConnectorBot({ appId: 'eas_bot', appSecret: 'ecd556d471ba48538f95487f1a138323' });
+
 var bot = new builder.TextBot();
 var dialog = new builder.CommandDialog();
-var lDialog = new builder.LuisDialog("https://api.projectoxford.ai/luis/v1/application?id=0541302a-76c9-44e8-81cd-bef8d4e1bde6&subscription-key=fbb18fb0e9e845d98a354d0b2a6d0aba")
+
 var server = restify.createServer();
 
 var builder = require('botbuilder');
